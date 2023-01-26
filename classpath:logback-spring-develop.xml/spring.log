@@ -1,0 +1,21 @@
+2023-01-26 14:36:55.326  INFO 25406 --- [main] com.greate.community.InsertCommentTest   : Starting InsertCommentTest on MacBook-Pro.local with PID 25406 (started by troyyliu in /Users/troyyliu/Downloads/commentSystem)
+2023-01-26 14:36:55.327  INFO 25406 --- [main] com.greate.community.InsertCommentTest   : The following profiles are active: develop
+2023-01-26 14:36:56.144  INFO 25406 --- [main] ptablePropertiesBeanFactoryPostProcessor : Post-processing PropertySource instances
+2023-01-26 14:36:56.201  INFO 25406 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2023-01-26 14:36:56.202  INFO 25406 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource Inlined Test Properties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2023-01-26 14:36:56.203  INFO 25406 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2023-01-26 14:36:56.203  INFO 25406 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+2023-01-26 14:36:56.203  INFO 25406 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2023-01-26 14:36:56.203  INFO 25406 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource applicationConfig: [classpath:/application-develop.properties] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2023-01-26 14:36:56.203  INFO 25406 --- [main] c.u.j.EncryptablePropertySourceConverter : Converting PropertySource applicationConfig: [classpath:/application.properties] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2023-01-26 14:36:56.262  INFO 25406 --- [main] c.u.j.filter.DefaultLazyPropertyFilter   : Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2023-01-26 14:36:56.431  INFO 25406 --- [main] c.u.j.r.DefaultLazyPropertyResolver      : Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2023-01-26 14:36:56.434  INFO 25406 --- [main] c.u.j.d.DefaultLazyPropertyDetector      : Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2023-01-26 14:36:57.150  INFO 25406 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-01-26 14:36:57.298  WARN 25406 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2023-01-26 14:36:57.558  INFO 25406 --- [main] com.greate.community.InsertCommentTest   : Started InsertCommentTest in 2.73 seconds (JVM running for 3.574)
+2023-01-26 14:36:57.834  INFO 25406 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-01-26 14:36:58.042  INFO 25406 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-01-26 14:36:58.117  INFO 25406 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-01-26 14:36:58.119  INFO 25406 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-01-26 14:36:58.124  INFO 25406 --- [Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
