@@ -43,7 +43,7 @@
 每次运行需要打开：
 - MySQL
 
-另外，还需要事先建好数据库 CommentFunc，然后再运行项目 sql 文件夹下有建表语句：
+另外，还需要事先建好数据库 CommentFunc，然后再运行项目 sql 文件夹下有建表语句。
 
 
 ## 评论及相关信息
@@ -57,7 +57,9 @@
 - status: 状态：0 正常，1 禁用
 - createTime: 发布时间
 
-## 单元测试
+## 测试
+在`/Users/troyyliu/Downloads/commentProject/src/test/java/com/greate/community`路径下，对评论系统的功能以及异常进行测试
+
 
 
 
